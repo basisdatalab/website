@@ -1,0 +1,28 @@
+// Main
+@import "../../node_modules/bourbon/app/assets/stylesheets/bourbon.scss";
+@import "partials/fonts.scss";
+@import "partials/variables.scss";
+@import "partials/base.scss";
+
+body {
+	font-family: $open, sans-serif;;
+	margin-bottom: 50px;
+}
+
+.homepage {
+	margin-top: 80px;;
+	background: #F3F3F3;
+	.header {
+		text-align: center;
+		.head-text h1 {
+			font-size: em(60px);
+			margin-bottom: 35px;
+			text-align: center;
+		}
+		.desc p {
+			font-size: em(20px);
+			color: #616161;
+			line-height: 30px;
+		}
+	}
+}
